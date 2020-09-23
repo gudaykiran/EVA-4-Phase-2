@@ -9,6 +9,10 @@
 
 ![Figure 1](https://github.com/gudaykiran/EVA-4-Phase-2/blob/master/Session%205/Fig%201.%20Pose%20Estimation.png)
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/gudaykiran/EVA-4-Phase-2/blob/master/Session%205/Fig%201.%20Pose%20Estimation.png">
+</p>
+
 - We adopt this structure because it is arguably the simplest to generate heat maps from deep and low resolution features and also adopted in the state-of-the-art Mask R-CNN.  
 - By default, three deconvolutional layers with batch normalization and ReLU activation are used. Each layer has 256 filters with 4 × 4 kernel. The stride is 2. 
 - A 1 × 1 convolutional layer is added at last to generate predicted heat maps { H1, H2, …. Hk} for all k key points.
