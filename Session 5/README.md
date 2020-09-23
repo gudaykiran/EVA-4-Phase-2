@@ -1,7 +1,7 @@
 **Session 5 – Monocular Human Pose Estimation and ONNX Models**
 
 
-1.	Model Architecture and Joints MSE Class.
+**Model Architecture and Joints MSE Class**
 
 **Model Architecture:**
 
