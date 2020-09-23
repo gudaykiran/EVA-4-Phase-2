@@ -5,7 +5,7 @@
 
 **Model Architecture:**
 
-ResNet is the most common backbone network for image feature extraction. It is also used in for pose estimation. Our method simply adds a few Deconvolutional layers over the last convolution stage in the ResNet, called C5. The whole network structure is illustrated in Figure 1 below:
+- ResNet is the most common backbone network for image feature extraction. It is also used in for pose estimation. Our method simply adds a few Deconvolutional layers over the last convolution stage in the ResNet, called C5. The whole network structure is illustrated in Figure 1 below:
 
 
 - We adopt this structure because it is arguably the simplest to generate heat maps from deep and low resolution features and also adopted in the state-of-the-art Mask R-CNN.  
