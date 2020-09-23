@@ -85,7 +85,7 @@ tracking id. When processing the kth frame Ik, we have the already processed hum
   <img src="https://github.com/gudaykiran/EVA-4-Phase-2/blob/master/Session%205/Uday.jpg">
 </p>
 
-**Output 1: Bended Pose**
+**Output 2: Bended Pose**
 <p align="center">
   <img src="https://github.com/gudaykiran/EVA-4-Phase-2/blob/master/Session%205/Jagadeesh.jpg">
 </p>
