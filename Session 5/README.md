@@ -7,10 +7,10 @@
 
 - ResNet is the most common backbone network for image feature extraction. It is also used in for pose estimation. Our method simply adds a few Deconvolutional layers over the last convolution stage in the ResNet, called C5. The whole network structure is illustrated in Figure 1 below:
 
-![Figure 1](https://github.com/gudaykiran/EVA-4-Phase-2/blob/master/Session%205/Fig%201.%20Pose%20Estimation.png)
+
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/gudaykiran/EVA-4-Phase-2/blob/master/Session%205/Fig%201.%20Pose%20Estimation.png">
+  <img width="600" height="600" src="https://github.com/gudaykiran/EVA-4-Phase-2/blob/master/Session%205/Fig%201.%20Pose%20Estimation.png">
 </p>
 
 - We adopt this structure because it is arguably the simplest to generate heat maps from deep and low resolution features and also adopted in the state-of-the-art Mask R-CNN.  
