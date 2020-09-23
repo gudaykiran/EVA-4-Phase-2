@@ -42,7 +42,7 @@ Mean Squared Error (MSE) is used as the loss between the predicted heatmaps and 
 
 
 
-Pose Tracking Based on Optical Flow:
+**Pose Tracking Based on Optical Flow:**
 - Multi-person pose tracking in videos first estimates human poses in frames, and then tracks these human pose by assigning a unique identification number (id)
 to them across frames. We present human instance P with id as P = (J, id),  where J = {ji} 1:NJ is the coordinates set of NJ body joints and id indicates the
 tracking id. When processing the kth frame Ik, we have the already processed human instances set Pk−1 = {Pik-1} 1:Nk-1 in frame Ik−1 and the instances set Pk = {Pik} 1:Nk in frame Ik whose id is to be assigned.
